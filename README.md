@@ -1,14 +1,14 @@
 # DS-CW-ECS796P-matrixMul
 
-**execution comands in gcp**/n
+**execution comands in gcp**
 
 'sudo apt install npm'
 'npm install grpc'
 
-**for server side**/n
+**for server side**
 
 'npm run server:grpc'
 
-**for client side**/n
-'npm run server:rest'__
+**for client side**
+'npm run server:rest'
 

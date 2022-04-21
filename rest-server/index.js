@@ -50,7 +50,7 @@ app.post("/multiply", async (req, res) => {
   // Error handling to make sure the input matrix is a square matrix
   if (!utils.powerOfTwo(dimension)) {
     return res.status(400).json({
-      error: "Given Matrix is Not Square Matrix",
+      error: "dimension of the matrix is not in power of 2",
     });
   }
 
